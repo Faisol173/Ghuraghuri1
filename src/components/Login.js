@@ -7,7 +7,7 @@ export default function Login() {
           <h1>GHURA-GHURI</h1>
             <h3>Log in</h3>
             <hr/>
-            <div class="social-login">
+            {/* <div class="social-login">
                 <a href="#">
                     <img src="../image/fb.png" alt=""/>
                 </a>
@@ -21,9 +21,9 @@ export default function Login() {
                     <img src="../image/linkedin.png" alt=""/>
                 </a>
             
-            </div>
+            </div> */}
 
-            <p>or use your email</p>
+            
 
             <form className="form">
                 <label for="email">Email</label>

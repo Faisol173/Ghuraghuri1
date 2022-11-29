@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 import Trip from '../components/Trip';
+import cox from "../assets/cox.jpg"
 
 export default function Home() {
   return (
@@ -11,16 +12,16 @@ export default function Home() {
         <Navbar/>
         <Hero 
             cName="hero"
-            heroImg="../../assets/cox.jpg"
+            heroImg={cox}
             title="Your Jounery Your Story"
             text="Choose Your Favourite Destination."
             btnText="Travel Plan"
             url="/"
             btnClass="show"
         />
-        <Destination/>
+        {/* <Destination/>
 
-        <Trip/>
+        <Trip/> */}
 
         <Footer/>
     </>

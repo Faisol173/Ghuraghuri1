@@ -20,10 +20,10 @@ export default class SignUp extends Component {
                     <br/>
                    <button type="submit" class="form-btn">SIGN UP</button>
                </form>
-               <span class="sign-up-with">Or sign up with</span>
+               {/* <span class="sign-up-with">Or sign up with</span> */}
 
                
-               <div class="social-logo">
+               {/* <div class="social-logo">
                     <a href="#" title="Facebook">
                         <img src="../image/fb.png" alt="Facebook"/>
                     </a>
@@ -36,7 +36,7 @@ export default class SignUp extends Component {
                     <a href="#" title="Twitter">
                         <img src="../image/linkedin.png" alt="linkedin"/>
                     </a>
-               </div>
+               </div> */}
            </div>
        </div>
       </div>

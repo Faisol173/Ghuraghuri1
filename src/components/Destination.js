@@ -12,7 +12,7 @@ const Destination = () =>{
             <h1>Popular Destinations</h1>
             <p> Tours give you the opportunity to see a lot, within a time frame.</p>
         
-            <DestinationData
+            {/* <DestinationData
             className="first-des" 
             heading="Campaign Trip"
             text="Esse mollit exercitation commodo elit deserunt ut ipsum veniam nisi sunt do id. Occaecat ut laboris aute laborum fugiat veniam occaecat esse consequat. Proident nisi irure nisi ipsum proident eu. Culpa anim cillum fugiat veniam labore non in ea anim ullamco elit non nulla commodo. Ipsum nostrud nostrud nisi labore incididunt anim commodo ex anim eu do consequat enim. Aute fugiat et aute exercitation pariatur aute amet Lorem sit laborum Lorem magna. Qui nulla dolore magna ad deserunt in nisi fugiat consequat ex magna elit aute."
@@ -26,7 +26,7 @@ const Destination = () =>{
             text="Esse mollit exercitation commodo elit deserunt ut ipsum veniam nisi sunt do id. Occaecat ut laboris aute laborum fugiat veniam occaecat esse consequat. Proident nisi irure nisi ipsum proident eu. Culpa anim cillum fugiat veniam labore non in ea anim ullamco elit non nulla commodo. Ipsum nostrud nostrud nisi labore incididunt anim commodo ex anim eu do consequat enim. Aute fugiat et aute exercitation pariatur aute amet Lorem sit laborum Lorem magna. Qui nulla dolore magna ad deserunt in nisi fugiat consequat ex magna elit aute."
             img1={Mountain3}
             img2={Mountain4}
-            />
+            /> */}
         </div>
     )
 }
