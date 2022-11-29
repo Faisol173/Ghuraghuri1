@@ -50,7 +50,7 @@ body{
     border:none;
     border-radius: 20px;
     padding-left:14px;
-    color:rgb(238, 237, 237);
+    color:black;
     background-color: rgb(7, 6, 10);
 }
 .form input:focus{
