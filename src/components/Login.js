@@ -58,7 +58,7 @@ export default function Login() {
                 <br/>
                 <input type="checkbox" name="check" id="check"/>
                 <span className="rm-me">Remember Me</span>
-                <a href="#" className="fg-pa">htmlForgot Password?</a>
+                <a href="#" className="fg-pa">Forgot Password?</a>
                 <br/>
                 <button type="submit" className="btn" onClick={handleSignIn}>Log in</button>
             </div>
