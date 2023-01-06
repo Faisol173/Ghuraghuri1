@@ -3,19 +3,24 @@ import { useState } from 'react';
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../Firebase/Firebase";
 import { queryAllByAttribute } from "@testing-library/react";
+import { useNavigate } from "react-router-dom";
 
 export default function Login() {
+   const navigate= useNavigate();
     const[email,setEmail]=useState("");
     const[password,setPassword]=useState("");
     console.log(email);
   
     const handleSignIn=async()=>{
   
-        signInWithEmailAndPassword(auth, email, password)
+        await signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
           // Signed in 
           const user = userCredential.user;
           alert("Your are "+user.email);
+          if(user){
+            navigate('/');
+          }
           // ...
         })
         .catch((error) => {

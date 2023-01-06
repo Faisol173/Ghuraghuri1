@@ -16,7 +16,7 @@ export default function Home() {
             title="Your Jounery Your Story"
             text="Choose Your Favourite Destination."
             btnText="Travel Plan"
-            url="/"
+            url="/travelPlan"
             btnClass="show"
         />
         {/* <Destination/>

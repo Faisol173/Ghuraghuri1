@@ -14,7 +14,7 @@
 body{
     
    
-    background: url("../image/fe692f6d-a1b6-47c6-b2c0-39056ed2d7b7.webp") no-repeat;
+    /* background: url("../image/fe692f6d-a1b6-47c6-b2c0-39056ed2d7b7.webp") no-repeat; */
     background-size: cover;
     background-position: center;
    
@@ -50,12 +50,13 @@ body{
     border:none;
     border-radius: 20px;
     padding-left:14px;
-    color:black;
+    color:rgb(249, 248, 248);
     background-color: rgb(7, 6, 10);
 }
 .form input:focus{
     border:none;
-    outline:none
+    outline:none;
+    color: black;
 }
 .form input::placeholder{
     padding-left: 4px;
@@ -70,6 +71,10 @@ body{
     border:0.1rem solid rgb(35, 215, 221);
     color:rgb(35, 215, 221);
     background-color: transparent;
+}
+.toHome{
+    text-decoration: none;
+    color: rgb(35, 215, 221);
 }
 .form-btn:hover{
     background-color: rgb(17, 16, 29);

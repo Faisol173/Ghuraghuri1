@@ -16,7 +16,7 @@ export default function About() {
             btnClass="hide"
         />
 
-        {/* <AboutUs/> */}
+        { <AboutUs/>  }
 
         <Footer/>
     </>

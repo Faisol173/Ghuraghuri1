@@ -1,0 +1,44 @@
+.cardHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+   
+}
+.travelCard{
+    padding: 15px;
+    min-height: 200px;
+    width: 250px;
+    border: 1px solid black;
+    margin-right: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 20px 1px rgba(0, 0, 0, 0.5);
+    
+}
+.travelCard >h3,h2,p{
+    margin-bottom: 15px;
+}
+.card{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details{
+    margin-top: 50px;
+    
+}
+.details>h1,p{
+    margin-bottom: 40px;
+    
+}
+
+.detailsCard{
+   min-width: 700px;
+   height: 80vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
